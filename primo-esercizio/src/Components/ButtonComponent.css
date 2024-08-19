@@ -1,0 +1,26 @@
+.button-magnify {
+    background-color: #61dafb; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .button-magnify:hover {
+    background-color: #21a1f1; 
+    transform: scale(1.05);
+  }
+  
+  .button-magnify:active {
+    background-color: #1d8ac7; 
+    transform: scale(0.95);
+  }
+  
+  @keyframes moveMessage {
+    0% { top: 50px; }
+    50% { top: 100px; }
+    100% { top: 50px; }
+  }
